@@ -1,0 +1,285 @@
+/* PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+APP : dharma-wanita
+RELEASE : 31/08/2023
+*/
+:root {
+    --bs-blue: #00cfe8;
+    --bs-indigo: #6610f2;
+    --bs-purple: #045e99;
+    --bs-pink: #d63384;
+    --bs-red: #ea5455;
+    --bs-orange: #ff9f43;
+    --bs-yellow: #ffc107;
+    --bs-green: #28c76f;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #b8c2cc;
+    --bs-gray-dark: #1e1e1e;
+    --bs-gray-100: #babfc7;
+    --bs-gray-200: #ededed;
+    --bs-gray-300: #dae1e7;
+    --bs-gray-400: #636363;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #b8c2cc;
+    --bs-gray-700: #4e5154;
+    --bs-gray-800: #1e1e1e;
+    --bs-gray-900: #2a2e30;
+    --bs-primary: #045e99;
+    --bs-secondary: #82868b;
+    --bs-success: #28c76f;
+    --bs-info: #00cfe8;
+    --bs-warning: #ff9f43;
+    --bs-danger: #ea5455;
+    --bs-light: #f6f6f6;
+    --bs-dark: #4b4b4b;
+    --bs-primary-rgb: 115,103,240;
+    --bs-secondary-rgb: 130,134,139;
+    --bs-success-rgb: 40,199,111;
+    --bs-info-rgb: 0,207,232;
+    --bs-warning-rgb: 255,159,67;
+    --bs-danger-rgb: 234,84,85;
+    --bs-light-rgb: 246,246,246;
+    --bs-dark-rgb: 75,75,75;
+    --bs-white-rgb: 255,255,255;
+    --bs-black-rgb: 34,41,47;
+    --bs-body-color-rgb: 110,107,123;
+    --bs-body-bg-rgb: 248,248,248;
+    --bs-font-sans-serif: "Public Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    --bs-font-monospace: "Public Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    --bs-gradient: linear-gradient(180deg,hsla(0,0%,100%,.15),hsla(0,0%,100%,0));
+    --bs-body-font-family: var(--bs-font-sans-serif);
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.45;
+    --bs-body-color: #6e6b7b;
+    --bs-body-bg: #f8f8f8;
+}
+
+/* SYNC MELATI */
+
+.col-form-label {
+    padding-top: calc(0.375rem + 2px);
+    padding-bottom: calc(0.375rem + 2px);
+    margin-bottom: 0;
+    font-size: inherit;
+    line-height: 1.5;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-inline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.input-group {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+table.dataTable.no-footer {
+    border-bottom: 1px solid #ececec;
+}
+/* SYNC MELATI */
+
+.dark-layout .form-control[type=file]::-webkit-file-upload-button{background-color:#283046}.dark-layout .form-control[type=file]::file-selector-button{background-color:#283046}
+/*
+.card {
+    background-color: rgb(255,255,255,.9)!important;
+}
+*/
+html body {
+    /*background-color: #e9f6f9;*/
+    background-image: url('https://www.bpk.go.id/sites/wp-content/uploads/2023/08/BG-DW-02.jpg');
+    /* background-color: #f3f7f2; */
+    /* background-color: #ddeef1; */
+    /* background-color: #cbe5f1;*/
+}
+.top-bar.color-scheme-bright {
+ /*   background-color: #1d7e46; */
+}
+.horizontal-menu .header-navbar {
+    /*background: #1d7e46; */
+    /*background: linear-gradient(#00a884, #1d8d75);*/
+    /*background: linear-gradient(#45b3be, #3676a1);*/
+    background:none;
+}
+
+.navbar-floating .header-navbar-shadow {
+    top:0px!important;
+    height:110px!important;
+    /*background: linear-gradient(180deg,hsl(202deg 50% 43%) 44%,hsla(0,0%,97%,.46) 73%,hsla(0,0%,100%,0));*/
+    /* DW-LIGHT background: linear-gradient(107deg,#ffffff,#cbffd0,#3d603f26); */
+    background: linear-gradient(180deg,#00000045,#0000007d);
+}
+
+.header-navbar .navbar-shadow {
+    /*box-shadow:0 4px 24px 0 rgba(34,41,47,.1)*/
+    box-shadow: 0!important;
+}
+
+.auth-wrapper .brand-logo img {
+    max-width: 375px !important;
+ }
+.horizontal-menu .header-navbar.navbar-brand-center .navbar-header .navbar-brand .brand-logo img {
+    max-width: 375px !important;
+ }
+
+  .header-navbar .navbar-container ul.navbar-nav li>a.nav-link {
+    color: #ffffff;
+  }
+
+.horizontal-menu .header-navbar.navbar-brand-center .navbar-header {
+    left:0;
+    padding-left: 25px;
+    padding-top: 15px;
+}
+
+
+/*
+.horizontal-menu .horizontal-menu-wrapper .header-navbar .navbar-container {
+    background: linear-gradient(#63b4d7, #0091a1);
+}
+*/
+.form-select #tahun_session {
+    color: #ffffff;
+    background-color: #387ea4;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.horizontal-menu .header-navbar.navbar-horizontal ul#main-menu-navigation > li:hover > a {
+    background: #cfecd1;
+    border-radius: 4px;
+    color: #000000;
+}
+
+.horizontal-menu .header-navbar.navbar-horizontal ul#main-menu-navigation>li.active>a {
+    background: linear-gradient(118deg,#375635,rgb(41 137 46));
+    border-radius: 4px;
+    /* box-shadow: 0 0 6px 1px rgba(115,103,240,.6); */
+    box-shadow:none;
+    color: #fff;
+}
+
+#main-menu-navigation li>a.nav-link {
+    background-color: #f2f2f2;
+    /*background: linear-gradient(118deg, #045e99, rgba(4, 94, 153, 0.7)); */
+    /*background: linear-gradient(118deg, #0f7b42, #26c0b7);*/
+    border-radius: 4px;
+    color: #000000
+}
+
+
+/* WIZARD */
+.bs-stepper .bs-stepper-header .step.active .step-trigger .bs-stepper-box {
+    background-color: #007836;
+}
+.bs-stepper .bs-stepper-header .step.active .step-trigger .bs-stepper-label .bs-stepper-title {
+    /*color: #b1317a;*/
+    color: #007836;
+}
+.bs-stepper .bs-stepper-header .step .step-trigger .bs-stepper-label .bs-stepper-subtitle {
+    color: #000000;
+}
+
+/* JUDUL HALAMAN
+html .content .content-wrapper .content-header-title {
+    border-right: 1px solid #d6dce1;
+    color: #ffffff;
+    font-weight: 500;
+    padding-right: 1rem;
+    text-transform: capitalize;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #ef7e47;
+}
+
+html .content .content-wrapper .content-header-title {
+    border-right: 1px solid #d6dce1;
+    color: #3e7b2a;
+    font-weight: 400;
+    padding-right: 1rem;
+    text-transform: capitalize;
+    padding: 3px 10px;
+    border-radius: 10px;
+    background-color: #dce9d8;
+    font-family: Roboto;
+    font-size: 2rem;GG
+}
+*/
+html .content .content-wrapper .content-header-title {
+    color: #fff ;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 3px 10px;
+    font-family: Roboto;
+    font-size: 2rem;GG
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    background-color: #fffbf9;
+}
+
+.form-control {
+    background-color: #fffbf9;
+}
+
+.form-select {
+    background-color: #fffbf9;
+    font-weight: 500;
+}
+
+.text-right {
+    text-align: right;
+  }
+  .text-left {
+    text-align: left;
+  }
+  .text-center {
+    text-align: center;
+  }
+
+  .text-detail {
+    color: #cbcbcb;
+  }
+
+
+svg.size-12 {
+    height: 12px !important;
+    width: 12px !important;
+}
+
+@media (max-width: 767.98px) {
+
+    .header-navbar .navbar-container .show~.dropdown-menu {
+        position: fixed;
+        overflow: hidden;
+        right: 0 !important;
+        left: unset !important;
+        width: 21rem !important;
+    }
+}
+
+/*
+ungu-aktif:5e50ee
+*/

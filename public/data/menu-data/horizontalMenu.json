@@ -1,0 +1,42 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboards",
+      "icon": "home",
+      "slug": ""
+    },
+    {
+      "name": "System",
+      "icon": "settings",
+      "dropdown": "1",
+      "slug": "",
+      "submenu": [
+        {
+          "name": "User",
+          "icon": "user",
+          "url": "/user",
+          "slug": ""
+        },
+        {
+          "name": "Roles",
+          "icon": "shield",
+          "url": "/role",
+          "slug": ""
+        },
+        {
+          "name": "Permission",
+          "icon": "shield",
+          "url": "/permission",
+          "slug": ""
+        }
+      ]
+    },
+    {
+      "name": "Tagihan",
+      "icon": "menu",
+      "url": "/master/tagihan",
+      "slug": ""
+    }
+  ]
+}
