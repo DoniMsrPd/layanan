@@ -4,7 +4,7 @@
 <div class="element-wrapper">
     <div class="element-box">
 
-        <h5 class="form-header">Berita Acara Peminjaman
+        <h5 class="form-header">Berita Acara Peminjaman Index
         </h5>
         <form action="" method="get" id="form">
             <div class="row">
@@ -32,7 +32,7 @@
                             <th>No</th>
                             <th>Ticket</th>
                             <th>Status</th>
-                            <th>BA Peminjaman</th>
+                            <th>BA Pinjam</th>
                             <th>BA Pengembalian</th>
                         </tr>
                     </thead>

@@ -11,7 +11,7 @@
         let listDelete = that.closest('li');
         let tableDeleteId = tableDelete.attr('id');
 
-        swal({ title: 'Konfirmasi OK ya..baik',
+        swal({ title: 'Konfirmasi',
             text: "Kamu yakin akan menghapus " + titleDelete + "?",
             type:'warning',
             showCancelButton:true,
