@@ -19,7 +19,7 @@
                         <tr>
                             <!-- <th>No</th> -->
                             <!-- <th>NIP</th> -->
-                            <th>Nama</th>
+                            <th>Nama ASN</th>
                             <th>Unit Org</th>
                             <th>Unit Org Induk</th>
                             <th>SNip</th>
