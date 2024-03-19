@@ -19,7 +19,7 @@
           <img src="{{ url('/') }}/images/LOGO-LAYANAN.png" alt="logo">
         </a>
 
-        <p class="card-text mb-2">Silakan Login dengan Akun BPK anda</p>
+        <p class="card-text mb-2">Please sign in using your BPK account</p>
 
         <form class="auth-login-form mt-2" method="POST" action="{{ route('login') }}">
           @csrf
@@ -57,7 +57,7 @@
               <label class="form-check-label" for="remember-me"> Remember Me </label>
             </div>
           </div>
-          
+          <button class="btn btn-primary w-100" tabindex="4">Sign in</button>
         </form>
       </div>
     </div>
