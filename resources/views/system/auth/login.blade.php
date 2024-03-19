@@ -57,7 +57,7 @@
               <label class="form-check-label" for="remember-me"> Remember Me </label>
             </div>
           </div>
-          <button class="btn btn-primary w-100" tabindex="4">Sign in</button>
+          
         </form>
       </div>
     </div>
